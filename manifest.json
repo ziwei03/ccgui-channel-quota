@@ -1,0 +1,21 @@
+{
+  "id": "channel-quota",
+  "name": "渠道余量",
+  "version": "0.2.2",
+  "sdkVersion": ">=0.3.12",
+  "minAppVersion": "1.2.0",
+  "author": "ziwei",
+  "description": "在左下角状态栏显示当前渠道的余量（90 秒自动刷新），点一下打开面板看所有渠道的余额/套餐余量、重置时间与倒计时。渠道地址与 Key 由你自己导入 config.json 内容获得（宿主不允许插件读取 ~/.ccgui-next）。",
+  "license": "MIT",
+  "keywords": ["balance", "quota", "channel", "provider", "usage", "statusbar"],
+  "tier": "js",
+  "permissions": [
+    "assets:directory",
+    "events",
+    "storage",
+    "ui:center-tab",
+    "ui:status-bar",
+    "network:api.kimi.com",
+    "network:open.bigmodel.cn"
+  ]
+}
